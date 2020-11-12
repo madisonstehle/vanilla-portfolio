@@ -1,0 +1,25 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-picture {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://images.unsplash.com/photo-1605124305733-fe7ecf960b0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.landing-name-title {
+    /* border: 1px solid black; */
+}
+
+button {
+    border-radius: 20%;
+    background-color: none;
+    margin: 10px;
+}
